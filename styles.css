@@ -59,7 +59,17 @@ img{max-width:100%;display:block}
   border:1px solid rgba(255,255,255,.16);
   box-shadow:0 0 100px rgba(255,255,255,.06), inset 0 0 100px rgba(255,255,255,.03);
 }
-.hero-logo{width:100%;height:100%;object-fit:contain;display:block;border-radius:50%;}.hero-content{position:relative;z-index:2;max-width:880px}
+.hero-logo{
+  position:absolute;
+  right:-5vw;
+  top:18%;
+  width:42vw;
+  height:42vw;
+  object-fit:contain;
+  display:block;
+  border-radius:50%;
+  z-index:1;
+}
 .eyebrow,.section-kicker{
   color:#b7bbc0;font-weight:700;font-size:11px;letter-spacing:.22em;text-transform:uppercase;
 }
