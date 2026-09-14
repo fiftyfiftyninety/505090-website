@@ -181,7 +181,7 @@ footer{
   .cta-band{align-items:flex-start;flex-direction:column}
 }
 @media (max-width:560px){
-  .hero{min-height:auto;padding-top:90px}
+  .hero{min-height:auto;padding-top:55px}
   .hero h1{font-size:64px}
   .hero-stat{grid-template-columns:auto auto; width:100%;align-items:center}
   .slash{display:none}
