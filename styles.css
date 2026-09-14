@@ -55,7 +55,7 @@ img{max-width:100%;display:block}
   background:linear-gradient(90deg,transparent,#777,transparent);
 }
 .hero-glow{
-  position:absolute;right:-5vw;top:18%;width:42vw;height:42vw;border-radius:50%;
+  position:absolute;right:-1vw;top:43%;width:30vw;height:30vw;border-radius:50%;
   border:1px solid rgba(255,255,255,.16);
   box-shadow:0 0 100px rgba(255,255,255,.06), inset 0 0 100px rgba(255,255,255,.03);
 }
