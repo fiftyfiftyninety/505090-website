@@ -188,4 +188,8 @@ footer{
   .cards.four{grid-template-columns:1fr}
   .section{padding-top:72px;padding-bottom:72px}
   footer{flex-direction:column;align-items:flex-start}
+  .hero-glow{display:none}
+.hero-content{order:1}
+.hero-logo{position:relative;right:auto;top:auto;width:46vw;height:auto;align-self:flex-end;margin:28px 0 8px;z-index:1;order:2}
+.hero-stat{order:3}
 }
