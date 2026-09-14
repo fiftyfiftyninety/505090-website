@@ -61,8 +61,8 @@ img{max-width:100%;display:block}
 }
 .hero-logo{
   position:absolute;
-  right:-5vw;
-  top:53%;
+  right:-1vw;
+  top:43%;
   width:30vw;
   height:30vw;
   object-fit:contain;
