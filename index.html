@@ -14,6 +14,41 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css" />
+
+<style>
+  /* Digital Products storefront artwork */
+  #digital-products .digital-products-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 24px;
+  }
+  #digital-products .card {
+    overflow: hidden;
+  }
+  #digital-products .digital-product-cover {
+    display: block;
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    margin: 0 0 22px;
+    border: 1px solid rgba(255,255,255,.12);
+  }
+  #digital-products .digital-product-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 18px;
+  }
+  @media (max-width: 760px) {
+    #digital-products .digital-products-grid {
+      grid-template-columns: 1fr;
+    }
+    #digital-products .digital-product-cover {
+      margin-bottom: 18px;
+    }
+  }
+</style>
+
 </head>
 <body>
   <header class="site-header">
@@ -124,6 +159,7 @@
 
   <div class="cards cards--compact digital-products-grid">
     <article class="card reveal">
+      <img class="digital-product-cover" src="https://pe56d.s3.amazonaws.com/o_1k31nnna8oks7cvbpj1hsvobq1a.png" alt="Season Review Companion product cover" loading="lazy" />
       <h3>Season Review Companion</h3>
       <p>Finish the season with evidence. Review progress, measure improvement, and set the next season’s focus.</p>
       <div class="digital-product-actions">
@@ -133,6 +169,7 @@
     </article>
 
     <article class="card reveal">
+      <img class="digital-product-cover" src="https://pe56d.s3.amazonaws.com/o_1k31p2gejsm11vo2rp1dce13rb15.png" alt="Navigating What’s Next product cover" loading="lazy" />
       <h3>Navigating What’s Next</h3>
       <p>A structured transition system for evaluating where you are, understanding what transfers, and building what comes next.</p>
       <div class="digital-product-actions">
@@ -142,6 +179,7 @@
     </article>
 
     <article class="card reveal">
+      <img class="digital-product-cover" src="https://pe56d.s3.amazonaws.com/o_1k31qs31j19ih1nh28b213mb1c2l1f.png" alt="Guest &amp; Interviewee Standard product cover" loading="lazy" />
       <h3>Guest &amp; Interviewee Standard</h3>
       <p>Prepare before the conversation, communicate with purpose, and represent yourself or your organization professionally.</p>
       <div class="digital-product-actions">
@@ -151,6 +189,7 @@
     </article>
 
     <article class="card reveal">
+      <img class="digital-product-cover" src="https://pe56d.s3.amazonaws.com/o_1k31rph2ubvlfcb5nsdk12m51f.png" alt="Host &amp; Interviewer Standard product cover" loading="lazy" />
       <h3>Host &amp; Interviewer Standard</h3>
       <p>Prepare the conversation, listen with purpose, and lead stronger interviews with a repeatable media framework.</p>
       <div class="digital-product-actions">
@@ -160,6 +199,7 @@
     </article>
 
     <article class="card reveal">
+      <img class="digital-product-cover" src="https://pe56d.s3.amazonaws.com/o_1k31svj271pan1d3tiup1duuk3r1f.png" alt="Sports Media Standards Bundle product cover" loading="lazy" />
       <h3>Sports Media Standards Bundle</h3>
       <p>Both sides of the conversation in one system: the Guest &amp; Interviewee Standard plus the Host &amp; Interviewer Standard.</p>
       <div class="digital-product-actions">
